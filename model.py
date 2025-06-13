@@ -2,7 +2,6 @@ from decimal import *
 from catboost import CatBoostRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
 import data_analysis
 
 features = ['Month', 'GeoEntityName', 'GeoCode']
